@@ -10,7 +10,7 @@ const industries = [
   "Education",
   "E-Commerce",
   "Transportation",
-  "Other",
+  "Other"
 ];
 
 const App = () => {
@@ -47,7 +47,7 @@ const App = () => {
     return () => clearTimeout(delay);
   }, [search]);
 
-  // Update form data when editingCompany changes
+  // updating form data when editingCompany changes
   useEffect(() => {
     if (editingCompany) {
       setFormData({
@@ -105,7 +105,7 @@ const App = () => {
       </h1>
 
       <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto">
-        {/* Left Side: Search + Form */}
+        {/*this is left Side: Search + Form(input fields) */}
         <div className="md:w-1/3 bg-white p-6 rounded-xl shadow-lg flex flex-col gap-6">
           <input
             type="text"
@@ -177,7 +177,7 @@ const App = () => {
           </form>
         </div>
 
-        {/* Right Side: Company List */}
+        {/*Here is  right side with: company list in table format */}
         <div className="md:w-2/3 overflow-x-auto">
           <table className="w-full border border-indigo-300 bg-white rounded-xl shadow-lg overflow-hidden">
             <thead className="bg-indigo-100">
