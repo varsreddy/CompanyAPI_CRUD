@@ -31,6 +31,7 @@ The backend is built with **Node.js, Express, and MongoDB**, while the frontend 
 ---
 
 ## Project Structure
+```bash
 companies-api/
 │
 ├── backend/ # Express server and API
@@ -44,7 +45,7 @@ companies-api/
 ├── public/ # Static assets
 ├── package.json # Frontend dependencies
 └── vite.config.js # Vite config
-
+```
 
 
 ---
@@ -58,18 +59,21 @@ git clone https://github.com/your-username/CompanyAPI_CRUD.git
 cd CompanyAPI_CRUD
 ```
 ### 2. Bcakend Setup
+```bash
 cd backend
 npm install
 npm run dev
 
 Backend runs on http://localhost:5000
+```
 
 ### 3. Frontend setup
+```bash
 cd ../frontend
 npm install
 npm run dev
 Frontend runs on http://localhost:5173
-
+```
 ## Usage
 
 Open the frontend URL in the browser.
