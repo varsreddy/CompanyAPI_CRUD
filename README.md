@@ -62,7 +62,7 @@ cd CompanyAPI_CRUD
 ```bash
 cd backend
 npm install
-npm run dev
+nodemon
 
 Backend runs on http://localhost:5000
 ```
